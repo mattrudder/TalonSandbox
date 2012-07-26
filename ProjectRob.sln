@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{F859512D-6283-4FBE-A468-EFE79E48653A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glew", "..\Talon\build\generated\vs2010\glew.vcxproj", "{C85014E5-5402-3347-AD1B-6D333E1047C3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nowide", "..\Talon\build\generated\vs2010\nowide.vcxproj", "{3418296C-3A22-C447-AFEC-5F6825425D99}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Talon", "..\Talon\build\generated\vs2010\Talon.vcxproj", "{67ED9308-E1BE-D947-AB41-04EC07B52663}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jansson", "..\Talon\build\generated\vs2010\jansson.vcxproj", "{53B9A936-AF58-11E1-8974-BA116188709B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProjectRob", "build\generated\vs2010\ProjectRob.vcxproj", "{0A68D736-1AB3-4980-AB48-6F8DCDD9D148}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A68D736-1AB3-4980-AB48-6F8DCDD9D148}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0A68D736-1AB3-4980-AB48-6F8DCDD9D148}.Debug|Win32.Build.0 = Debug|Win32
+		{0A68D736-1AB3-4980-AB48-6F8DCDD9D148}.Release|Win32.ActiveCfg = Release|Win32
+		{0A68D736-1AB3-4980-AB48-6F8DCDD9D148}.Release|Win32.Build.0 = Release|Win32
+		{3418296C-3A22-C447-AFEC-5F6825425D99}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3418296C-3A22-C447-AFEC-5F6825425D99}.Debug|Win32.Build.0 = Debug|Win32
+		{3418296C-3A22-C447-AFEC-5F6825425D99}.Release|Win32.ActiveCfg = Release|Win32
+		{3418296C-3A22-C447-AFEC-5F6825425D99}.Release|Win32.Build.0 = Release|Win32
+		{53B9A936-AF58-11E1-8974-BA116188709B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{53B9A936-AF58-11E1-8974-BA116188709B}.Debug|Win32.Build.0 = Debug|Win32
+		{53B9A936-AF58-11E1-8974-BA116188709B}.Release|Win32.ActiveCfg = Release|Win32
+		{53B9A936-AF58-11E1-8974-BA116188709B}.Release|Win32.Build.0 = Release|Win32
+		{67ED9308-E1BE-D947-AB41-04EC07B52663}.Debug|Win32.ActiveCfg = Debug|Win32
+		{67ED9308-E1BE-D947-AB41-04EC07B52663}.Debug|Win32.Build.0 = Debug|Win32
+		{67ED9308-E1BE-D947-AB41-04EC07B52663}.Release|Win32.ActiveCfg = Release|Win32
+		{67ED9308-E1BE-D947-AB41-04EC07B52663}.Release|Win32.Build.0 = Release|Win32
+		{C85014E5-5402-3347-AD1B-6D333E1047C3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C85014E5-5402-3347-AD1B-6D333E1047C3}.Debug|Win32.Build.0 = Debug|Win32
+		{C85014E5-5402-3347-AD1B-6D333E1047C3}.Release|Win32.ActiveCfg = Release|Win32
+		{C85014E5-5402-3347-AD1B-6D333E1047C3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3418296C-3A22-C447-AFEC-5F6825425D99} = {F859512D-6283-4FBE-A468-EFE79E48653A}
+		{53B9A936-AF58-11E1-8974-BA116188709B} = {F859512D-6283-4FBE-A468-EFE79E48653A}
+		{67ED9308-E1BE-D947-AB41-04EC07B52663} = {F859512D-6283-4FBE-A468-EFE79E48653A}
+		{C85014E5-5402-3347-AD1B-6D333E1047C3} = {F859512D-6283-4FBE-A468-EFE79E48653A}
+	EndGlobalSection
+EndGlobal
